@@ -1,0 +1,27 @@
+{
+  "domain": "lampster",
+  "name": "Lampster",
+  "bluetooth": [
+    {
+      "service_uuid": "01ff5550-ba5e-f4ee-5ca1-eb1e5e4b1ce0",
+      "connectable": true
+    },
+    {
+      "local_name": "Lampster*",
+      "connectable": true
+    }
+  ],
+  "codeowners": [
+    "@janjaaps"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "bluetooth_adapters"
+  ],
+  "documentation": "https://github.com/janjaaps/homeassistant",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/janjaaps/homeassistant/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

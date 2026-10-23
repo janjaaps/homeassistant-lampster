@@ -1,0 +1,19 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "description": "Kies de Lampster.",
+        "data": {"address": "Apparaat"}
+      },
+      "bluetooth_confirm": {
+        "description": "Wil je {name} toevoegen?"
+      }
+    },
+    "abort": {
+      "no_devices_found": "Geen Lampster gevonden via Bluetooth.",
+      "already_configured": "Deze Lampster is al toegevoegd.",
+      "already_in_progress": "Instellen is al bezig."
+    }
+  }
+}
