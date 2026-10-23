@@ -4,7 +4,7 @@ Custom integration in `custom_components/lampster/`. Stuurt een Lampster-lamp aa
 via Bluetooth: licht (wit 2700–6500 K of RGB) en temperatuursensor. Werkt met elke
 Bluetooth-adapter of ESPHome Bluetooth-proxy (`active: true`) in HA.
 
-Installeren via HACS: ⋮ → Aangepaste repositories → `https://github.com/janjaaps/homeassistant`,
+Installeren via HACS: ⋮ → Aangepaste repositories → `https://github.com/janjaaps/homeassistant-lampster`,
 categorie *Integratie*. Herstart HA en voeg de lamp toe onder Instellingen → Apparaten & diensten.
 
 Protocol (service `01ff5553-ba5e-f4ee-5ca1-eb1e5e4b1ce0`):
